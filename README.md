@@ -20,6 +20,8 @@ A Pasta <i>storage</i> são os arquivos compartilhados com a VM.
 
 Junto com o <i>AirFlow</i> já serão instalados o Banco de Dados <i>Postgres 13</i>  e o <i>PgAdmin4</i> que é um gerenciador gráfico do <i>Postgres</i>.
 
+![](/images/print.PNG)
+
 <hr>
 
 
@@ -29,6 +31,16 @@ Junto com o <i>AirFlow</i> já serão instalados o Banco de Dados <i>Postgres 13
 * Airflow 2.5.1
 * PostgreSQL 13
 * PGAdmin4
+* apache-airflow-providers-apache-spark==4.0.0
+* apache-airflow-providers-google==10.1.0rc1
+* apache-airflow-providers-microsoft-azure
+* apache-airflow-providers-apache-kafka
+* pyspark==3.2.1
+* delta-spark==2.0.0
+* google-cloud-storage
+* firebase
+* firebase_admin
+* kafka-python
 
 <hr>
 
