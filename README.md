@@ -33,7 +33,6 @@ Junto com o <i>AirFlow</i> já serão instalados o Banco de Dados <i>Postgres 13
 * PGAdmin4
 * apache-airflow-providers-apache-spark==4.0.0
 * apache-airflow-providers-google==10.1.0rc1
-* apache-airflow-providers-microsoft-azure
 * apache-airflow-providers-apache-kafka
 * pyspark==3.2.1
 * delta-spark==2.0.0
