@@ -1,0 +1,10 @@
+apache-airflow-providers-apache-spark==4.0.0
+apache-airflow-providers-google==10.1.0rc1
+apache-airflow-providers-microsoft-azure
+apache-airflow-providers-apache-kafka
+pyspark==3.2.1
+delta-spark==2.0.0
+google-cloud-storage
+firebase
+firebase_admin
+kafka-python
