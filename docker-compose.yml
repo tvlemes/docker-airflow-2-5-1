@@ -1,7 +1,5 @@
 version: '3.7'
 
-build:
-    dockerfile: .
 
 # Networks
 networks:
