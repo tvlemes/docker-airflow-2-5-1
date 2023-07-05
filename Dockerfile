@@ -1,6 +1,3 @@
-export DOCKER_BUILDKIT=0
-export COMPOSE_DOCKER_CLI_BUILD=0
-
 FROM apache/airflow:2.3.3
 
 USER root
