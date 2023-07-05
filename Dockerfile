@@ -25,6 +25,9 @@ ENV AIRFLOW_HOME=${AIRFLOW_USER_HOME}
 
 RUN chown -R airflow: ${AIRFLOW_HOME}
 
+export DOCKER_BUILDKIT=0
+export COMPOSE_DOCKER_CLI_BUILD=0
+
 USER airflow
 
 RUN python -m pip install --upgrade pip
