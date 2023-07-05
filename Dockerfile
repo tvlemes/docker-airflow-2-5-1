@@ -1,3 +1,6 @@
+export DOCKER_BUILDKIT=0
+export COMPOSE_DOCKER_CLI_BUILD=0
+
 FROM apache/airflow:2.3.3
 
 USER root
@@ -24,9 +27,6 @@ ARG AIRFLOW_USER_HOME=/usr/local/airflow
 ENV AIRFLOW_HOME=${AIRFLOW_USER_HOME}
 
 RUN chown -R airflow: ${AIRFLOW_HOME}
-
-export DOCKER_BUILDKIT=0
-export COMPOSE_DOCKER_CLI_BUILD=0
 
 USER airflow
 
